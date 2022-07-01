@@ -1,0 +1,43 @@
+a:after {
+    content: " (" attr(href) ")";
+}
+
+.calc {
+    width: calc(100% - 100px);
+    background-color: rgb(28, 177, 98);
+    text-align: center;
+}
+
+.rgb {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(201, 7, 7);
+}
+
+.rgba {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(83, 154, 94, 0.6);
+}
+
+.rotate {
+    margin: 20px 0;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(30, 30, 226);
+    transform: rotate(45deg);
+}
+
+.translate {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    transform: translate(100px, 100px);
+}
+
+.linear-gradient {
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(#bc23c1, #7dee48);
+}

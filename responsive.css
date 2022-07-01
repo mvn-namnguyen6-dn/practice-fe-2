@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1201px) {}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .wide {
+        max-width: 960px;
+    }
+
+    .header-container .main-nav .main-nav__list {
+        color: rgb(233, 233, 14);
+    }
+
+    .banner-button {
+        position: absolute;
+        top: 65%;
+        color: rgb(214, 133, 11);
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .wide {
+        max-width: 720px;
+    }
+
+    .banner-button {
+        position: absolute;
+        top: 70%;
+    }
+
+    .banner-title {
+        position: absolute;
+        top: 34%;
+    }
+
+    .banner-sale {
+        position: absolute;
+        top: 10%;
+    }
+
+    .header-container .main-nav .main-nav__list {
+        color: rgb(189, 18, 52);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .banner-sale {
+        font-size: 20px;
+
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .button-banner {
+        background-color: white;
+        color: black;
+        border: 2px solid #000000;
+        font-size: 23px;
+
+    }
+
+
+    .header-container .main-nav {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-list .product-item .product-info .product-name a:hover {
+        color: #218a39;
+    }
+}
